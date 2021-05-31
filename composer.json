@@ -1,0 +1,14 @@
+{   "name": "Mailer/Mailer",
+    "type": "library",
+    "description": "Composer package by kiridovg",
+    "license": "MIT",
+    "require": {
+        "swiftmailer/swiftmailer": "^6.0",
+        "monolog/monolog": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
